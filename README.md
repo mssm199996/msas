@@ -1,5 +1,15 @@
 # msas
-Maven based project for an IoT platform for securing the access control to the room of an establishment.
+A project for an IoT platform for securing the access control to the room of an establishment.
+  * MSAS_Web is a maven based project for the web services.
+* MSAS_Arduino is the client's algorithm to inject into an arduino micro-controller which is supposed to control the door.
+
+-----
+Note: 
+-----
+
+* You have to change username / password for mysql connection inside the com.msas.MSAS.Configuration.PersistenceJpaConfig class so that the web app could connect and persist data.
+
+*
 
 ![1](https://github.com/mssm199996/msas/blob/master/Capture%20d%E2%80%99%C3%A9cran%20de%202019-07-26%2018-50-51.png)
 ![2](https://github.com/mssm199996/msas/blob/master/Capture%20d%E2%80%99%C3%A9cran%20de%202019-07-26%2018-51-07.png)

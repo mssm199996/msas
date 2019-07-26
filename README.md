@@ -9,7 +9,7 @@ Note:
 
 * You have to change username / password for mysql connection inside the com.msas.MSAS.Configuration.PersistenceJpaConfig class so that the web app could connect and persist data.
 
-*
+* You have to install an MQTT Broker at port 1883 (or use mosquitto broker which by default open a tcp connection at port 1883) so that the application can subscribe and receive requests from micro-controllers.
 
 ![1](https://github.com/mssm199996/msas/blob/master/Capture%20d%E2%80%99%C3%A9cran%20de%202019-07-26%2018-50-51.png)
 ![2](https://github.com/mssm199996/msas/blob/master/Capture%20d%E2%80%99%C3%A9cran%20de%202019-07-26%2018-51-07.png)

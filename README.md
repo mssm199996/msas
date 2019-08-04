@@ -7,7 +7,7 @@ A project for an IoT platform for securing the access control to the room of an 
 Note: 
 -----
 
-* You have to change username / password for mysql connection inside the com.msas.MSAS.Configuration.PersistenceJpaConfig class so that the web app could connect and persist data.
+* You have to change username / password for mysql connection inside the com.msas.MSAS.Configuration.PersistenceJpaConfig class so that the web app can connect and persist data.
 
 * You have to install an MQTT Broker at port 1883 (or use mosquitto broker which by default open a tcp connection at port 1883) so that the application can subscribe and receive requests from micro-controllers.
 
